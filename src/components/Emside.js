@@ -6,14 +6,14 @@ function Emside () {
   return (
     <>
       <div id='sidebar'>
-        <div classNamecd='onStatus'>
+        <div className='onStatus'>
           <span>status</span>
-          <div classNamecd='circle'></div>
+          <div className='circle'></div>
         </div>
 
         <div classNamecd='panel'>
-          <button classNamecd='collapsible'>View options</button>
-          <div classNamecd='content'>
+          <button className='collapsible'>View options</button>
+          <div className='content'>
             <p id='empy'>Employees</p>
             <p id='pstn'>Position</p>
           </div>
